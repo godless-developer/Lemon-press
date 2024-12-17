@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.headers {
+  display: flex;
+  gap: 4%;
+  height: 65px;
+  width: 100%;
+  align-items: center;
+}
+.headers img {
+  margin-left: 2%;
+  width: 150px;
+  height: 22px;
+}
+.header-center {
+  color: black;
+  display: flex;
+  gap: 6%;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: __Roboto_b1c482, __Roboto_Fallback_b1c482;
+  width: 60%;
+}
+.headers-button {
+  border-radius: 50%;
+  padding: 8px;
+  border: none;
+}
+.headers-button-read {
+  width: 110.8px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+}
