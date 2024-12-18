@@ -1,15 +1,22 @@
-import "./lemon.css";
+import "./styles/lemon.css";
+import "./styles/towhimol.css";
+import "./styles/ads.css";
+import "./styles/ontsloh.css";
 import Header from "./components/Header";
-
+import Scrol from "./components/Towhimol";
+import Ads from "./components/ads";
+import Ontsloh from "./components/Ontsloh";
+import ThreeNews from "./components/ThreeNews";
 const App = () => {
   return (
-    <div class="headers">
-      <img src="https://lemonpress.mn/logo/lemonpress.svg" alt="" />
+    <div className="body">
       <Header />
-      <button class="headers-button">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </button>
-      <button class="headers-button-read">Уншаад үзье</button>
+      <Ads />
+      <div className="medkv">
+        <Ontsloh />
+        <Scrol />
+      </div>
+      <ThreeNews />
     </div>
   );
 };
