@@ -15,8 +15,17 @@ const App = () => {
       <div className="medkv">
         <Ontsloh />
         <Scrol />
+        <Ontsloh />
+        <Scrol />
+        <Ontsloh />
+        <Scrol />
+        <Ontsloh />
+        <Scrol />
+        <Ontsloh />
+        <Scrol />
+        <Ontsloh />
+        <Scrol />
       </div>
-      <ThreeNews />
     </div>
   );
 };

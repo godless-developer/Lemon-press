@@ -10,7 +10,10 @@
   font-family: sans-serif;
 }
 .medkv {
-  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: 1px;
+  height: 700px;
+  border: 2px black solid;
 }
 .headers {
   display: flex;
