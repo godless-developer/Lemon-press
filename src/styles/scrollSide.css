@@ -1,0 +1,24 @@
+.scrollSide-container {
+    width: 350px;
+    height: 500px;
+    background-image: url(https://dash-api.yld.mn/api/image/28b2bfc0-03b5-41d1-befc-0b4e483c81f8);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.scrollSide-content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.scrollSide-content h5 {
+    padding-top: 124%;
+    letter-spacing: -0.5px;
+}
+.scrollSide-content h2 {
+    font-size: 19px;
+}

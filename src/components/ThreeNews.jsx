@@ -3,6 +3,7 @@ const ThreeNewsItems = [
     title: "Зах зээл",
     paragraph: "Орон сууцны үнэ иргэдийн орлогоос  2-2.5 дахин үнэтэй байна",
     date: "С.Ангирмаа / 12 сарын 17, 2024",
+    imgUrl: "",
   },
   {
     title: "Эдийн засаг",
@@ -20,7 +21,7 @@ const ThreeNewsItems = [
 const ThreeNews = () => {
   return (
     <div className="threenews-container">
-      <div className="threenews-top"></div>
+      <img src="https://dash-api.yld.mn/api/image/f64012ed-9f61-469c-934e-593a79b152d2" alt="" />
       {ThreeNewsItems.map((set) => {
         return (
           <div className="threenews-bottom">
