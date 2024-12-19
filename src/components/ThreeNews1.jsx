@@ -17,14 +17,15 @@ const ThreeNewsItems1 = [
       date: "М.Хулан / 12 сарын 16, 2024",
     },
 ];
+
   
   const ThreeNews1 = () => {
     return (
-      <div className="threenews-container">
+      <div className="threenews1-container">
         <img src="https://dash-api.yld.mn/api/image/f64012ed-9f61-469c-934e-593a79b152d2" alt="" />
         {ThreeNewsItems1.map((set) => {
           return (
-            <div className="threenews-bottom">
+            <div className="threenews1-bottom">
               <h3>{set.title}</h3>
               <p>{set.paragraph}</p>
               <h4>{set.date}</h4>

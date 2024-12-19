@@ -1,9 +1,9 @@
-.threenews-container img {
+.threenews1-container img {
     width: 322px;
     height: 170px;
     cursor: pointer;
 }
-.threenews-container {
+.threenews1-container {
     width: 322px;
     height: 521px;
     display: flex;
@@ -13,7 +13,7 @@
     border: 1px gray solid;
     cursor: pointer;
 }
-.threenews-bottom {
+.threenews1-bottom {
     width: 322px;
     height: 117px;
     display: flex;
@@ -23,15 +23,15 @@
     padding: 5px;
     
 }
-.threenews-bottom h3 {
+.threenews1-bottom h3 {
     color: blue;
     font-size: 15px;
 }
-.threenews-bottom p {
+.threenews1-bottom p {
     font-weight: bold;
     font-size: 15px;
 }
-.threenews-bottom h4 {
+.threenews1-bottom h4 {
     font-size: 13px;
     color: gray;
 }

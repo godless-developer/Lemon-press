@@ -1,10 +1,9 @@
 .container {
   width: 380px;
-  height: 500px;
+  height: 521px;
   background-color: black;
   color: yellow;
   border-radius: 10px;
-  margin-left: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +11,7 @@
   overflow-x: scroll;
   scrollbar-color: yellow #badaba;
   scrollbar-width: 1px;
-  scroll-behavior: smooth;
+  scrollbar-gutter: unset;
   font-family: __Roboto_b1c482, __Roboto_Fallback_b1c482;
 }
 .h4 {
@@ -25,6 +24,7 @@
   flex-direction: column;
   gap: 0.5px;
   background-color: gray;
+  cursor: pointer;
 }
 .content {
   width: 100%;
